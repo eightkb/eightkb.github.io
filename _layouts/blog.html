@@ -25,8 +25,6 @@
     <link rel="icon" type="image/png" href="/img/favicon.png" sizes="64x64">
 
     <title>EIGHTKB - SQL Server Internals Conference</title>
-
-    <script src="js/marked.min.js"></script>
 </head>
 
 <body>
@@ -37,11 +35,11 @@
             <span title="Conference Tagline">SQL Server Internals Conference</span>
         </div>
         <div class="menuItems" title="Navigation Menu">
-          {% include menu.html %}
+          {% include short-menu.html %}
         </div>
     </div>
     <div class="floatingMenu" id="floatingMenu" aria-hidden="true">
-          (% include float-menu.html %)
+          {% include short-float-menu.html %}
     </div>
     <div id="content" title="Main Content">
       {{ content }}

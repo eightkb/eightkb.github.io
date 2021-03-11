@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+    <meta name="title" content="A FREE virtual conference focusing on Microsoft SQL Server internals">
+    <meta name="description" content="">
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="/" />
+    <meta property="og:title" content="EIGHTKB - The SQL Server Internals Conference" />
+    <meta property="og:description" content="A virtual MS Data Platform conference focusing on SQL Server internals." />
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:domain" content="eightkb.online" />
+    <meta name="twitter:title" content="EIGHTKB - The SQL Server Internals Conference" />
+    <meta name="twitter:description"
+        content="A virtual MS Data Platform conference focusing on SQL Server internals." />
+    <meta name="twitter:url" content="/" />
+
+    <link rel=StyleSheet href="/css/fonts.css" type="text/css" media=screen>
+    <link rel=StyleSheet href="/css/default.css" type="text/css" media=screen>
+    <link rel="icon" type="image/png" href="/img/favicon.png" sizes="64x64">
+
+    <title>EIGHTKB - Previous Events</title>
+
+    <script src="/js/marked.min.js"></script>
+</head>
+
+<body>
+    <div id="landingContainer" title="Main Container">
+        <div id="landingHeader" title="Page Header">
+            <img src="/img/logo_landing.png" alt="EIGHTKB Logo" />
+            <div class="tagLine" title="Conference Details">
+                <span title="Conference Tagline">SQL Server Internals Conference</span>
+            </div>
+            <div class="menuItems" title="Navigation Menu">
+                <span class="menuItem"><a href="/"Home>Home</a></span>
+            </div>
+        </div>
+        <div class="floatingMenu" id="floatingMenu" aria-hidden="true">
+            <img src="/img/logo_landing.png" alt="EIGHTKB Logo Small" />
+            <a href="/">Home</a>
+        </div>
+        <div id="content" title="Main Content">
+            <div class="contentBlock" title="Previous Events" id="content-latest"></div>
+        </div>
+        <script>
+            var http = new XMLHttpRequest();
+            http.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    document.getElementById('content-latest').innerHTML = marked(http.responseText);
+                }
+            }
+            http.open("GET","/previous.md",true);
+            http.send();
+        </script>
+    </div>
+</body>
+
+</html>
