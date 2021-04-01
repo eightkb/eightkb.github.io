@@ -99,6 +99,10 @@ a:hover {
     margin-bottom: 0.25rem;
 }
 
+.entry img {
+    max-width: 95%;
+}
+
 .tagLine {
     color: var(--text_color);
     text-align: left;
