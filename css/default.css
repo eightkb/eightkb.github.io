@@ -149,7 +149,7 @@ img.speaker {
     font-size: 0.75rem;
 }
 
-h1,h2,h3,h4,h5 {
+h1,h2,h3,h4,h5,post {
     color: var(--bright_text);
 }
 
