@@ -1,0 +1,328 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+    <atom:link href="https://eightkb.online/mixedextents/feed.rss" rel="self" type="application/rss+xml"/>
+    
+    <title>Mixed Extents</title>
+    <link>https://eightkb.online/mixedextents</link>
+    <pubDate>Mon, 29 Mar 2021 20:48:55 +0000</pubDate>
+    <lastBuildDate>Mon, 29 Mar 2021 20:48:55 +0000</lastBuildDate>
+    <ttl>60</ttl>
+    <language>en</language>
+    <copyright>All rights reserved</copyright>
+    <webMaster>info@eightkb.online (EightKB Crew)</webMaster>
+    <description>A database technology podcast brought to you by the EightKB team. Each month we discuss current and relevant database topics with a panel of community experts.</description>
+    <itunes:subtitle>Mixed Extents Podcast by EightKB</itunes:subtitle>
+    <itunes:owner>
+        <itunes:name>Mixed Extents</itunes:name>
+        <itunes:email>info@eightkb.online</itunes:email>
+    </itunes:owner>
+    <itunes:author>EightKB</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:image href="https://eightkb.online/mixedextents/logo.png"/>
+    <image>
+        <url>https://eightkb.online/mixedextents/logo.png</url>
+        <title>Mixed Extents</title>
+        <link>https://eightkb.online/mixedextents</link>
+    </image>
+    <itunes:category text="Technology"/>
+    
+    
+    <item>
+        <title>00: Database Backups</title>
+        <itunes:author>EightKB</itunes:author>
+        <itunes:subtitle></itunes:subtitle>
+        <description>In our first episode we talk with Argenis Fernandez and Mike Fal about backups, storage, and the future of both.
+
+GUESTS
+Argenis Fernandez
+Blog: https://www.0xsql.com/
+Twitter: https://twitter.com/DBArgenis
+
+Mike Fal
+Blog: http://www.mikefal.net/
+Twitter: https://twitter.com/Mike_Fal
+
+RESOURCES
+Argenis runs some tests to prove that you can trust storage snapshots for quick crash-consistent restores:
+https://www.0xsql.com/2020/06/10/pure-storage-flasharray-sql-server-snapshot-torture-you-kinda-asked-for-this/
+
+Intro sound from Freesound: https://freesound.org/people/Kleber_KGF/sounds/354019/</description>
+        <itunes:image href="https://assets.eightkb.online/mixedextents/me00.png" />
+        <itunes:episode>00</itunes:episode>
+        <enclosure url="https://dts.podtrac.com/redirect.mp3/assets.eightkb.online/mixedextents/me00.mp3" length="15080053" type="audio/mpeg"/>
+        <guid>https://dts.podtrac.com/redirect.mp3/assets.eightkb.online/mixedextents/me00.mp3</guid>
+        <pubDate>Tue, 28 Jul 2020 16:00:00 +0000</pubDate>
+        <itunes:duration>00:53:16</itunes:duration>
+    </item>
+    <item>
+        <title>01: Cloud vs. On-Prem</title>
+        <itunes:author>EightKB</itunes:author>
+        <itunes:subtitle></itunes:subtitle>
+        <description>In this episode we talk with David Klee, Joey D'Antoni, and Melody Zacharias about on-prem vs. cloud infrastructure, skills needed for the transition, and current limitations of the cloud.  We also get to see how Mark can't get his own co-hosts' (and co-workers') name right!
+
+GUESTS
+David Klee
+Blog: https://davidklee.net
+Twitter: https://twitter.com/kleegeek
+
+Joey D'Antoni
+Blog: https://joeydantoni.com
+Twitter: https://twitter.com/jdanton 
+
+Melody Zacharias
+Blog: https://sqlmelody.com
+Twitter: https://twitter.com/sqlmelody
+
+ Intro sound from Freesound: https://freesound.org/people/Kleber_KGF/sounds/354019/</description>
+        <itunes:image href="https://assets.eightkb.online/mixedextents/me01.png" />
+        <itunes:episode>01</itunes:episode>
+        <enclosure url="https://dts.podtrac.com/redirect.mp3/assets.eightkb.online/mixedextents/me01.mp3" length="17898832" type="audio/mpeg"/>
+        <guid>https://dts.podtrac.com/redirect.mp3/assets.eightkb.online/mixedextents/me01.mp3</guid>
+        <pubDate>Wed, 26 Aug 2020 16:00:00 +0000</pubDate>
+        <itunes:duration>01:00:09</itunes:duration>
+    </item>
+    <item>
+        <title>02: Indexing and Stats Maintenance</title>
+        <itunes:author>EightKB</itunes:author>
+        <itunes:subtitle></itunes:subtitle>
+        <description>In this episode we talk with Erik Darling and Erin Stellato about index maintenance, statistics, and the Index Maintenance Revolution! We also get to see more failed attempts at getting Andrew's name correct during our intro.
+
+RESOURCES
+From Erin:
+https://www.sqlskills.com/blogs/erin/updating-statistics-with-ola-hallengrens-script/ 
+https://www.sqlskills.com/blogs/erin/sqlskills-sql101-updating-sql-server-statistics-part-i-automatic-updates/
+https://www.sqlskills.com/blogs/erin/sqlskills-sql101-updating-sql-server-statistics-part-ii-scheduled-updates/
+https://www.sqlskills.com/blogs/erin/troubleshooting-a-change-in-query-performance/
+
+From Erik:
+https://www.erikdarlingdata.com/sql-server/because-your-index-maintenance-script-is-measuring-the-wrong-thing/
+https://www.erikdarlingdata.com/sql-server/what-metrics-does-rebuilding-indexes-improve/
+https://www.erikdarlingdata.com/sp_humanevents/
+https://www.erikdarlingdata.com/sp_pressuredetector/
+
+GUESTS
+Erik Darling
+Blog: https://www.erikdarlingdata.com/
+Twitter: https://twitter.com/erikdarlingdata
+
+Erin Stellato
+Blog: https://www.sqlskills.com/blogs/erin/
+Twitter: https://twitter.com/erinstellato
+
+ Intro sound from Freesound: https://freesound.org/people/Kleber_KGF/sounds/354019/</description>
+        <itunes:image href="https://assets.eightkb.online/mixedextents/me02.png" />
+        <itunes:episode>02</itunes:episode>
+        <enclosure url="https://dts.podtrac.com/redirect.mp3/assets.eightkb.online/mixedextents/me02.mp3" length="16104243" type="audio/mpeg"/>
+        <guid>https://dts.podtrac.com/redirect.mp3/assets.eightkb.online/mixedextents/me02.mp3</guid>
+        <pubDate>Fri, 25 Sep 2020 16:00:00 +0000</pubDate>
+        <itunes:duration>00:53:33</itunes:duration>
+    </item>
+    <item>
+        <title>03: Query Store</title>
+        <itunes:author>EightKB</itunes:author>
+        <itunes:subtitle></itunes:subtitle>
+        <description>In this episode we talk with Tracy Boggiano and William Durkin about Query Store, Open Query Store, and the fun of writing books. We also introduce a new feature that Andrew abuses and encourages the guests to abuse as well.
+
+GUESTS
+Tracy Boggiano
+Blog: http://databasesuperhero.com/
+Twitter: https://twitter.com/TracyBoggiano
+
+William Durkin
+Blog: https://datamasterminds.io/blog/
+Twitter: https://twitter.com/sql_williamd
+
+LINKS FROM THE SHOW
+
+Mixed Extents T-Shirts: https://www.bonfire.com/store/eightkb/
+
+Posts from Tracy:
+https://tracyboggiano.com/archive/2018/06/query-store-error-state/
+https://tracyboggiano.com/archive/2018/06/query-store-usage-and-adaptive-plan-tuning-usage/
+
+Tracy at PASS Summit: https://www.pass.org/summit/2020/Learn/Session-Details/sid/104557
+Tracy's Book: https://www.amazon.com/Query-Store-SQL-Server-2019/dp/1484250036
+
+Links from William:
+Company: https://datamasterminds.io/
+Open Query Store: https://www.openquerystore.com/
+Data Grillen: https://datagrillen.com/
+William's Books: https://www.amazon.com/William-Durkin/e/B073722MP7
+
+Intro sound from Freesound: https://freesound.org/people/Kleber_KGF/sounds/354019/</description>
+        <itunes:image href="https://assets.eightkb.online/mixedextents/me03.png" />
+        <itunes:episode>03</itunes:episode>
+        <enclosure url="https://dts.podtrac.com/redirect.mp3/assets.eightkb.online/mixedextents/me03.mp3" length="12300858" type="audio/mpeg"/>
+        <guid>https://dts.podtrac.com/redirect.mp3/assets.eightkb.online/mixedextents/me03.mp3</guid>
+        <pubDate>Thu, 22 Oct 2020 16:00:00 +0000</pubDate>
+        <itunes:duration>00:43:04</itunes:duration>
+    </item>
+    <item>
+        <title>04: HA/DR</title>
+        <itunes:author>EightKB</itunes:author>
+        <itunes:subtitle></itunes:subtitle>
+        <description>In our first episode we talk with Pam Lahoud and John Martin about HA/DR, what folks tend to get wrong, and what you need to think about when you are setting up a plan for your own environment.
+
+GUESTS
+Pam Lahoud
+Blog: https://sqlgoddess.com/
+Twitter: https://twitter.com/SQLGoddess
+
+John Q. Martin
+Blog: https://jqmartin.info/
+Twitter: https://twitter.com/SQLDiplomat
+
+Intro sound from Freesound: https://freesound.org/people/Kleber_KGF/sounds/354019/</description>
+        <itunes:image href="https://assets.eightkb.online/mixedextents/me04.png" />
+        <itunes:episode>04</itunes:episode>
+        <enclosure url="https://dts.podtrac.com/redirect.mp3/assets.eightkb.online/mixedextents/me04.mp3" length="16881088" type="audio/mpeg"/>
+        <guid>https://dts.podtrac.com/redirect.mp3/assets.eightkb.online/mixedextents/me04.mp3</guid>
+        <pubDate>Tue, 17 Nov 2020 16:00:00 +0000</pubDate>
+        <itunes:duration>00:46:47</itunes:duration>
+    </item>
+    <item>
+        <title>05: Year in Review</title>
+        <itunes:author>EightKB</itunes:author>
+        <itunes:subtitle></itunes:subtitle>
+        <description>In our sixth and final episode of 2020, we talk with some of the leaders in the data community that stepped up and helped fill the conference gap this year. We had a full panel and discussed everything from sponsors to the future of events in general.
+
+SUPPORT EIGHTKB AND MIXED EXTENTS!
+Pick up a t-shirt at our bonfire shop if you like what you are seeing and want to continue to support EightKB and Mixed Extents: https://www.bonfire.com/store/eightkb/
+
+GUESTS
+Blythe Morrow
+Site: https://paperswordb2b.com/
+Twitter: https://twitter.com/blythemorrow
+
+Kevin Feasel
+Blog: https://curatedsql.com
+Twitter: https://twitter.com/feaselkl
+
+William Durkin
+Blog: https://datamasterminds.io/blog/
+Twitter: https://twitter.com/sql_williamd
+
+Mark Hayes
+Site: https://www.datasmart.ie/
+Twitter: https://twitter.com/MarkDataGuy
+
+Stuart Moore
+Blog: https://stuart-moore.com/
+Twitter: https://twitter.com/napalmgram
+
+RESOURCES
+Events:
+ - GroupBy: https://groupby.org/
+ - Data Architecture Day: https://www.meetup.com/tripass/events/270069440
+ - New Stars of Data: https://www.newstarsofdata.com/
+ - Data Weekender: https://www.dataweekender.com/
+ - Data Platform Discovery Day: https://dataplatformdiscoveryday.com/
+
+Intro sound from Freesound: https://freesound.org/people/Kleber_KGF/sounds/354019/</description>
+        <itunes:image href="https://assets.eightkb.online/mixedextents/me05.png" />
+        <itunes:episode>05</itunes:episode>
+        <enclosure url="https://dts.podtrac.com/redirect.mp3/assets.eightkb.online/mixedextents/me05.mp3" length="17404875" type="audio/mpeg"/>
+        <guid>https://dts.podtrac.com/redirect.mp3/assets.eightkb.online/mixedextents/me05.mp3</guid>
+        <pubDate>Wed, 23 Dec 2020 16:00:00 +0000</pubDate>
+        <itunes:duration>01:05:14</itunes:duration>
+    </item>
+    <item>
+        <title>06: Azure SQL</title>
+        <itunes:author>EightKB</itunes:author>
+        <itunes:subtitle></itunes:subtitle>
+        <description>In this episode we talk with Anna Hoffman and Bob Ward about Azure SQL. We talk about what it is, why you might want to think about using it, and we also share some good resrouces to get free training.
+
+GUESTS
+Ann Hoffman
+Podcast: https://aka.ms/DataExposedYT
+Twitter: https://twitter.com/AnalyticAnna
+
+Bob Ward
+Blog: https://bobsql.com/
+Twitter: https://twitter.com/bobwardms
+
+RESOURCES
+Data Exposed Podcast - https://www.youtube.com/channel/UCNsev6sULZ_Zp06VL7uktuA
+Anna's Book - https://aka.ms/azuresqlfordevelopers 
+Bob's Book - https://aka.ms/azuresqlbook
+Azure SQL Fundamentals - https://aka.ms/azuresqlfundamentals 
+Azure SQL Free content on youtube - https://aka.ms/azuresql4beginners 
+Hotpatching Article - https://azure.microsoft.com/en-us/blog/hot-patching-sql-server-engine-in-azure-sql-database/
+
+Intro sound from Freesound: https://freesound.org/people/Kleber_KGF/sounds/354019/</description>
+        <itunes:image href="https://assets.eightkb.online/mixedextents/me06.png" />
+        <itunes:episode>06</itunes:episode>
+        <enclosure url="https://dts.podtrac.com/redirect.mp3/assets.eightkb.online/mixedextents/me06.mp3" length="15707936" type="audio/mpeg"/>
+        <guid>https://dts.podtrac.com/redirect.mp3/assets.eightkb.online/mixedextents/me06.mp3</guid>
+        <pubDate>Thu, 07 Jan 2021 16:00:00 +0000</pubDate>
+        <itunes:duration>00:50:40</itunes:duration>
+    </item>
+    <item>
+        <title>07: Next Gen Data Platforms</title>
+        <itunes:author>EightKB</itunes:author>
+        <itunes:subtitle></itunes:subtitle>
+        <description>In this episode we talk with Christopher Adkin, Argenis Fernandez, Benjamin Weissman, and Melody Zacharias about the next generation data platforms like Kubernetes and Arc-Enabled Data Services. We talk about the future of these platforms, the challenges folks are seeing in the wild, and why SQL Server 2008 RS will never go away.
+
+GUESTS
+Christopher Adkin
+Twitter: https://twitter.com/ChrisAdkin8
+
+Argenis Fernandez
+Blog: https://www.0xsql.com/
+Twitter: https://twitter.com/DBArgenis
+
+Benjamin Weissman
+Blog: https://www.solisyon.de/blog/
+Twitter: https://twitter.com/bweissman
+
+Melody Zacharias
+Blog: https://sqlmelody.com​
+Twitter: https://twitter.com/sqlmelody
+
+RESOURCES
+Azure Arc-Enabled Data Services Revealed [Book] - https://www.apress.com/us/book/9781484267042
+
+Intro sound from Freesound: https://freesound.org/people/Kleber_KGF/sounds/354019/</description>
+        <itunes:image href="https://assets.eightkb.online/mixedextents/me07.png" />
+        <itunes:episode>07</itunes:episode>
+        <enclosure url="https://dts.podtrac.com/redirect.mp3/assets.eightkb.online/mixedextents/me07.mp3" length="15338394" type="audio/mpeg"/>
+        <guid>https://dts.podtrac.com/redirect.mp3/assets.eightkb.online/mixedextents/me07.mp3</guid>
+        <pubDate>Tue, 16 Feb 2021 16:00:00 +0000</pubDate>
+        <itunes:duration>00:55:28</itunes:duration>
+    </item>
+    <item>
+        <title>08: EightKB Summer Edition!</title>
+        <itunes:author>EightKB</itunes:author>
+        <itunes:subtitle></itunes:subtitle>
+        <description>In this episode we are super excited to talk to.... US! We discuss the upcoming EightKB Summer Edition, announce the date for our next call for speakers, share a bit about our planning process, and show off a new t-shirt design just for the 2021 EightKB Summer event. 
+
+GUESTS
+Andrew Pruski
+Blog: https://dbafromthecold.com
+Twitter: https://twitter.com/dbafromthecold
+
+Mark Wilkinson
+Blog: https://markw.dev
+Twitter: https://twitter.com/m82labs
+
+Anthony Nocentino
+Blog: https://centinosystems.com/blog
+Twitter: https://twitter.com/nocentino
+
+RESOURCES
+Call for Data Speakers: https://callfordataspeakers.com/
+EightKB Homepage: https://eightkb.online
+EightKB/Mixed Extents Bonfire Store: https://www.bonfire.com/store/eightkb/
+
+Intro sound from Freesound: https://freesound.org/people/Kleber_KGF/sounds/354019/</description>
+        <itunes:image href="https://assets.eightkb.online/mixedextents/me08.png" />
+        <itunes:episode>08</itunes:episode>
+        <enclosure url="https://dts.podtrac.com/redirect.mp3/assets.eightkb.online/mixedextents/me08.mp3" length="7422887" type="audio/mpeg"/>
+        <guid>https://dts.podtrac.com/redirect.mp3/assets.eightkb.online/mixedextents/me08.mp3</guid>
+        <pubDate>Sun, 28 Mar 2021 16:00:00 +0000</pubDate>
+        <itunes:duration>00:27:06</itunes:duration>
+    </item>
+
+    </channel>
+</rss>
