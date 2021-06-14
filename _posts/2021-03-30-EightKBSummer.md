@@ -1,7 +1,7 @@
 ---
 layout: post
 title: EightKB Summer Edition!
-pin: true
+pin: false
 author: Mark Wilkinson
 ---
 

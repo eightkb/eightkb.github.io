@@ -1,48 +1,55 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: page
+title: Session Schedule
+---
+<script>
+    function showHideRow( id ) {
+        // Get the object clicked on
+        obj = document.getElementById(id);
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+        // Collapse all rows
+        let elements = document.getElementsByClassName('collapse');
 
-    <meta name="title" content="A FREE virtual conference focusing on Microsoft SQL Server internals">
-    <meta name="description" content="">
-    
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="/" />
-    <meta property="og:title" content="EIGHTKB - The SQL Server Internals Conference" />
-    <meta property="og:description" content="A virtual MS Data Platform conference focusing on SQL Server internals." />
-    
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:domain" value="eightkb.online" />
-    <meta name="twitter:title" value="EIGHTKB - The SQL Server Internals Conference" />
-    <meta name="twitter:description" value="A virtual MS Data Platform conference focusing on SQL Server internals." />
-    <meta name="twitter:url" value="/" />
+        for ( let i = 0; i < elements.length; i++ ) {
+            if ( elements[i] != obj ) {
+                elements[i].classList.remove('show');
+            }
+        }
 
-    <link rel=StyleSheet href="css/fonts.css" type="text/css" media=screen>
-    <link rel=StyleSheet href="css/default.css" type="text/css" media=screen>
-    <link rel="icon" type="image/png" href="img/favicon.png" sizes="64x64">
-
-    <title>EIGHTKB - SQL Server Internals Conference</title>
-    <script src="js/preload.js"></script>
-</head>
-
-<body>
-    <script async defer data-domain="eightkb.online" src="https://analytics.markw.dev/js/plausible.js"></script>
-    <div id="landingContainer">
-        <div id="landingHeader">
-            <img src="img/logo_landing.png"/>
-            <div class="menuItems">
-                <a href="/#sessionList">Back</a> |
-                <a href="/details.html">Details</a> |
-                <a href="/coc.html">Code of Conduct</a>
-            </div>
-        </div>
-        <div id="content">
-            <div class="contentBlock sessionDetail" id="detail">
-            </div>
-        </div>
-    </div>
-</body>
-
-</html>
+        // Expand rows
+        obj = document.getElementById(id);
+        if ( obj.classList.contains('show') ) {
+            obj.classList.remove('show');
+        } else {
+            obj.classList.add('show');
+        }
+    }
+</script>
+<table>
+    <thead>
+        <tr>
+            <th>Session</th>
+            <th>Speaker</th>
+            <th>Level</th>
+            <th>Length</th>
+        </tr>
+    </thead>
+    <tbody>
+{% assign talk = 1 %}
+{% for session in site.data.accepted_sessions -%}
+    {% capture curr_talk %}{% increment talk %}{% endcapture %}
+        <tr style="cursor: pointer;" onclick='showHideRow("collapse{{ curr_talk }}");' >
+            <td align="left" width=75%>{{ session.Title }}</td>
+            <td align="left">{{ session.Owner }}</td>
+            <td align="center">{{ session.Level }}</td>
+            <td align="center">{{ session['Scheduled Duration'] }}m</td>
+        </tr>
+        <tr class='collapse' id='collapse{{ curr_talk }}'>
+            <td colspan=4>
+                <h3>{{ session.Title }}</h3>
+                <p>{{ session.Description | newline_to_br }}</p>
+            </td>
+        </tr>
+{% endfor %}
+    </tbody>
+</table>

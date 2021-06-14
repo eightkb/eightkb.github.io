@@ -17,6 +17,7 @@ html {
 body {
     background-color: var(--bg_color);
     color: var(--text_color);
+    overflow-y: scroll;
 }
 
 table {
@@ -130,6 +131,7 @@ img.speaker {
     border-radius: 50%;
     max-width: 125px;
     height: auto;
+    margin: auto;
 }
 
 .speakerRow {
@@ -151,6 +153,30 @@ img.speaker {
     width: 100%;
     padding: 0.5rem;
     font-size: 0.75rem;
+}
+
+.session_row {
+  cursor: pointer;
+}
+
+.session_time {
+    width: 4rem;
+}
+
+.session_title {
+    
+}
+
+.session_owner {
+    width: 7.5rem;
+}
+
+.session_level {
+    width: 3rem;
+}
+
+.session_duration {
+    width: 3rem;
 }
 
 h1,h2,h3,h4,h5,post {
@@ -330,6 +356,33 @@ h2 {
     margin-top: -0.5rem;   
 }
 
+.collapse {
+    visibility: collapse;
+    line-height: 0;
+    opacity: 0;
+    border: none;
+    transition: all 50ms ease-in-out;
+    font-size: 0px;
+}
+
+.show {
+    visibility: visible;
+    line-height: 1.5;
+    background-color: #000;
+    opacity: 1;
+    border: none;
+    font-size: inherit;
+    transition: all 50ms ease-in-out;
+}
+
+.show td {
+    padding: 1rem;
+}
+
+.selected {
+    background-color: #000;
+}
+
 @media screen and (max-width: 1080px) {
     html {
         max-width: 75%;
@@ -340,9 +393,6 @@ h2 {
     html {
         font-size: 16px;
         max-width: 100%;
-    }
-
-    body {
         padding-left: 0.25rem;
         padding-right: 0.25rem;
     }
@@ -358,6 +408,10 @@ h2 {
 
     img.speaker {
         max-width: 70%;
+    }
+
+    .floatingMenu {
+        margin: 0;
     }
 
     .speakerTable {
@@ -378,6 +432,14 @@ h2 {
     }
 
     .sessionLevel {
+        display: none;
+    }
+
+    .session_level {
+        border-right: 1px solid;
+    }
+
+    .session_duration {
         display: none;
     }
 

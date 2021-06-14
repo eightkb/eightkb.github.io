@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<!-- Schedule Code and Text -->
+{% include schedule.html title="Schedule" %}
+<!-- End Schedule Code and Text -->
+{% assign pinned_post = site.posts | where: "pin","true" | sort | last %}
+{% if pinned_post %}
+<p class="post">
+    <h1>{{ pinned_post.title }}</h1>
+    <div class="entry">
+        {{ pinned_post.content }}
+    </div>
+</p>
+{% endif %}
+
+<h1 id="who-is-eightkb">Who is EightKB?</h1>
+<ul>
+  <li>Andrew Pruski (<a href="https://twitter.com/dbafromthecold">T</a>|<a href="https://dbafromthecold.com/">B</a>)</li>
+  <li>Mark Wilkinson (<a href="https://twitter.com/m82labs">T</a>|<a href="https://markw.dev/">B</a>)</li>
+  <li>Anthony Nocentino (<a href="https://twitter.com/nocentino">T</a>|<a href="http://www.centinosystems.com/blog">B</a>)</li>
+</ul>
+
+<p>This event was created to fill a void in the SQL Server conference line-up. While there are many important topics to discuss and things to learn in the SQL Server world, we want this conference to focus on the core components of SQL Server, the things that make SQL Server work.</p>
