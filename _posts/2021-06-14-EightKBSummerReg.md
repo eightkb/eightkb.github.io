@@ -10,7 +10,7 @@ It's that time again! Time to register for the biggest SQL Server internals conf
 <!--Start Signup Form-->
 <div class="mb-embed">
   <!-- You can customize the default success message here -->
-  <h2 class="mb-message mb-success-message" default-message="Thank you for registering for EightKB! If you don't receive an email confirming your registration, check your spam folder to you don't miss any future emails (like the link to the conference!)."></h2>
+  <h2 class="mb-message mb-success-message" default-message="Thank you for registering for EightKB! If you don't receive an email confirming your registration, check your spam folder so you don't miss any future emails (like the link to the conference!)."></h2>
   <h2 class="mb-message mb-error-message"></h2>
 
   <form method="post" action="https://www.mailblast.io/lists/e0e3d5a9-5288-41e7-b70a-7d0576e5c99e/subscribers/create_external" class="mb-form" novalidate="novalidate">
