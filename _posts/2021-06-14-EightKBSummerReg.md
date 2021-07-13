@@ -5,7 +5,7 @@ pin: true
 author: Mark Wilkinson
 ---
 
-It's that time again! Time to register for the biggest SQL Server internals conference on the internet! Join us *July 28th @ 13:00 UTC* for a free day of the high quality deep-dive content you've come to expect from EightKB!  
+It's that time again! Time to register for the biggest SQL Server internals conference on the internet! Join us *July 28th @ 12:45 UTC* for a free day of the high quality deep-dive content you've come to expect from EightKB!  
 
 <!--Start Signup Form-->
 <div class="mb-embed">
