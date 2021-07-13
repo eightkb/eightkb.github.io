@@ -35,6 +35,13 @@
         </tr>
     </thead>
     <tbody>
+        <tr class="session_row" id="intro">
+            <td align="center" class="session_time">12:45</td>
+            <td align="left" class="session_title">Welcome!</td>
+            <td align="left" class="session_owner">EightKB Crew</td>
+            <td align="center" class="session_level"></td>
+            <td align="center" class="session_duration">15m</td>
+        </tr>
 {% assign talk = 1 %}
 {%- for session in site.data.accepted_sessions -%}
     {% capture curr_talk %}{% increment talk %}{% endcapture %}
