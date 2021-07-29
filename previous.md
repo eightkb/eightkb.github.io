@@ -1,5 +1,20 @@
 # Previous Events
 
+## July 28th 2021
+
+Total Attendees: TBD
+
+Full Event Playlist
+
+|Session|Speaker|Level|Recording|
+| :---- | :---- | :-: |:------- |
+| **Parallelism in SQL Server** | Torsten Strauß | 400 | [Session]|
+| **"Black Arts" Index Maintenance - GUIDs v.s. Fragmentation - They're not the problem... WE ARE!** | Jeff Moden | 8192 | [Session]|
+| **How does SQL Server store that data type?** | Randolph West | 500 | [Session]|
+| **Inside SQL Waits, Latches, and Spinlocks** | Bob Ward | 400 | [Session]|
+| **Deep Dive: SQL Server on Azure Virtual Machine Storage** | Pam Lahoud | 300 | [Session]|
+
+
 ## January 27th 2021
 
 Total Attendees: 735
