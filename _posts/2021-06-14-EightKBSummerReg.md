@@ -1,7 +1,7 @@
 ---
 layout: post
 title: EightKB Registration is Open!
-pin: true
+pin: false
 author: Mark Wilkinson
 ---
 
