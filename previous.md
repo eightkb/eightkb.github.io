@@ -2,7 +2,7 @@
 
 ## July 28th 2021
 
-Total Attendees: TBD
+Total Attendees: 588
 
 [Full Event Playlist](https://www.youtube.com/watch?v=edNEhNmeQYI&list=PLr9ab4Dj3ObuaHAUA9JJz-GUbfbwXEyS5)
 
