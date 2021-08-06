@@ -4,15 +4,15 @@
 
 Total Attendees: TBD
 
-Full Event Playlist
+[Full Event Playlist](https://www.youtube.com/watch?v=edNEhNmeQYI&list=PLr9ab4Dj3ObuaHAUA9JJz-GUbfbwXEyS5)
 
 |Session|Speaker|Level|Recording|
 | :---- | :---- | :-: |:------- |
-| **Parallelism in SQL Server** | Torsten Strauß | 400 | [Session]|
-| **"Black Arts" Index Maintenance - GUIDs v.s. Fragmentation - They're not the problem... WE ARE!** | Jeff Moden | 8192 | [Session]|
-| **How does SQL Server store that data type?** | Randolph West | 500 | [Session]|
-| **Inside SQL Waits, Latches, and Spinlocks** | Bob Ward | 400 | [Session]|
-| **Deep Dive: SQL Server on Azure Virtual Machine Storage** | Pam Lahoud | 300 | [Session]|
+| **Parallelism in SQL Server** | Torsten Strauß | 400 | [Session](https://www.youtube.com/watch?v=GsL8uG9Z8HA)|
+| **"Black Arts" Index Maintenance - GUIDs v.s. Fragmentation - They're not the problem... WE ARE!** | Jeff Moden | 8192 | [Session](https://www.youtube.com/watch?v=qfQtY17bPQ4)|
+| **How does SQL Server store that data type?** | Randolph West | 500 | [Session](https://www.youtube.com/watch?v=_icTl62QKbg)|
+| **Inside SQL Waits, Latches, and Spinlocks** | Bob Ward | 400 | [Session](https://www.youtube.com/watch?v=wOsoanuBtqk)|
+| **Deep Dive: SQL Server on Azure Virtual Machine Storage** | Pam Lahoud | 300 | [Session](https://www.youtube.com/watch?v=mOEmrcMED2M)|
 
 
 ## January 27th 2021
