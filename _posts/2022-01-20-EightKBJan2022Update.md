@@ -1,6 +1,6 @@
 ---
 layout: post
-title: EightKB January 2022 pdate
+title: EightKB January 2022 Update
 pin: true
 author: Andrew Pruski
 ---
