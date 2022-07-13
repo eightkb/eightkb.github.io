@@ -1,0 +1,63 @@
+<script>
+    function showHideRow( id, source ) {
+        // Get the object we are showing/hiding
+        obj = document.getElementById(id);
+
+        // Collapse all rows
+        let elements = document.getElementsByClassName('collapse');
+
+        for ( let i = 0; i < elements.length; i++ ) {
+            if ( elements[i] != obj ) {
+                elements[i].classList.remove('show');
+                elements[i].previousElementSibling.classList.remove('selected');
+            }
+        }
+        
+        // Expand rows
+        if ( obj.classList.contains('show') ) {
+            obj.classList.remove('show');
+            source.target.parentElement.classList.remove('selected');
+        } else {
+            obj.classList.add('show');
+            source.target.parentElement.classList.add('selected');
+        }
+    }
+</script>
+<h1>{{ include.title }}</h1>
+<table title="Conference Schedule">
+    <thead>
+        <tr>
+            <th>UTC Time</th>
+            <th>Session</th>
+            <th>Speaker</th>
+            <th class="session_level">Level</th>
+            <th class="session_duration">Length</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="session_row" id="intro">
+            <td align="center" class="session_time">13:00</td>
+            <td align="left" class="session_title">Welcome!</td>
+            <td align="left" class="session_owner">EightKB Crew</td>
+            <td align="center" class="session_level"></td>
+            <td align="center" class="session_duration">15m</td>
+        </tr>
+{% assign talk = 1 %}
+{%- for session in site.data.accepted_sessions2022 -%}
+    {% capture curr_talk %}{% increment talk %}{% endcapture %}
+        <tr class="session_row" id="session{{ curr_talk }}" onclick='showHideRow("collapse{{ curr_talk }}",event);' >
+            <td align="center" class="session_time">{{ session['Scheduled At'] | date: "%H:%M" }}</td>
+            <td align="left" class="session_title">{{ session.Title }}</td>
+            <td align="left" class="session_owner">{{ session.Owner }}</td>
+            <td align="center" class="session_level">{{ session.Level }}</td>
+            <td align="center" class="session_duration">{{ session['Scheduled Duration'] }}m</td>
+        </tr>
+        <tr class='collapse' id='collapse{{ curr_talk }}'>
+            <td colspan=5>
+                <h3>{{ session.Title }}</h3>
+                <p>{{ session.Description | newline_to_br }}</p>
+            </td>
+        </tr>
+{% endfor %}
+    </tbody>
+</table>
