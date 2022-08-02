@@ -10,7 +10,7 @@ It's that time again! Time to register for the biggest SQL Server internals conf
 <!--Start Signup Form-->
 <div class="mb-embed">
   <!-- You can customize the default success message here -->
-  <h2 class="mb-message mb-success-message" default-message="Thank you for registering for EightKB! If you don't receive an email confirming your registration, check your spam folder so you don't miss any future emails (like the link to the conference!)."></h2>
+  <h2 class="mb-message mb-success-message" default-message="Thank you for registering for EightKB! If you don't receive an email confirming your registration, check your spam folder so you don't miss any future emails. Here is the link to the conference (we will send it out in an email as well): https://us02web.zoom.us/j/83951559874?pwd=bEZyUkgxSi9PR1VpYVZsbEFwRzREUT09"></h2>
   <h2 class="mb-message mb-error-message"></h2>
 
   <form method="post" action="https://www.mailblast.io/lists/30c9318f-259f-45bb-8a83-c5af6088401e/subscribers/create_external" class="mb-form" novalidate="novalidate">
