@@ -1,7 +1,7 @@
 ---
 layout: post
 title: EightKB 2023!
-pin: false
+pin: true
 author: Andrew Pruski
 ---
 

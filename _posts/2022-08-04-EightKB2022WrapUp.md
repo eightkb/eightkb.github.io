@@ -1,7 +1,7 @@
 ---
 layout: post
 title: EightKB 2022 Wrap-Up
-pin: true
+pin: false
 author: Mark Wilkinson
 ---
 
