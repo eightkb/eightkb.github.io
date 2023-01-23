@@ -1,5 +1,18 @@
 # Previous Events
 
+## August 3rd 2022
+
+[Full Event Playlist](https://www.youtube.com/watch?v=NEX1gCbvtCo&list=PLr9ab4Dj3ObsikWJ_enVnmLE5lP0ED3ds)
+
+|Session|Speaker|Level|Recording|
+| :---- | :---- | :-: |:------- |
+| **SQL Server Partitioning: The Good, The Bad, And The Ugly** | Angela Kruger | 300 | [Session](https://www.youtube.com/watch?v=Yea5Y2hMi14)
+| **SQL Server Storage Options Deep Dive** | Thomas Grohser | 8192 | [Session](https://www.youtube.com/watch?v=4I8MSSUeLzY)
+| **Advanced OLAP Optimization with Columnstore Indexes** | 400 | [Session](https://www.youtube.com/watch?v=mhJuxA9EPvc)
+| **Availability Groups at Scale : Lessons Learned at Stack Overflow** | Taryn Pratt, Andy Mallon, Aaron Bertrand | 300 | [Session](https://www.youtube.com/watch?v=eKgs_OZDDaE)
+| **Intelligent Query Processing in SQL Server 2022** | Kate Smith | 400 | [Session](https://www.youtube.com/watch?v=q3blfBjhjGE)
+
+
 ## July 28th 2021
 
 Total Attendees: 588
