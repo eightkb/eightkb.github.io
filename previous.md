@@ -1,4 +1,3 @@
-# Previous Events
 
 ## August 3rd 2022
 
