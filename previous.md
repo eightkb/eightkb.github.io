@@ -1,7 +1,7 @@
 
 ## August 3rd 2022
 
-Total Attendees: 884
+Total Attendees: 511
 
 [Full Event Playlist](https://www.youtube.com/watch?v=NEX1gCbvtCo&list=PLr9ab4Dj3ObsikWJ_enVnmLE5lP0ED3ds)
 
