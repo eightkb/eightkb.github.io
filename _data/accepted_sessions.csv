@@ -2,12 +2,12 @@ Session Id,Title,Description,Owner,Owner Email,Session Length,Level,Owner Inform
 435491,Hacking and Hacking Mitigation For SQL Server,"In recent years we have seen and heard about a scenarios where hackers gained access to your system, databases are encrypted and where data is stolen.
 The question is not if our systems are going to be attacked, but rather when this is going to happen.
 
-As a data professional you have the obligation to protect the data to the best of your abilitity. 
+As a data professional you have the obligation to protect the data to the best of your ability. 
 You have to deal with both outsider and insider threats.
 Outside attackers motivated by profit, activism, retribution, or mischief. 
 Insider threats may have the same motives but could be tied to workplace issues resulting in people abusing their access privileges to inflict harm.
 
-When you have been attacked it is really important to find out what happened and how to mititgate the attack.
+When you have been attacked it is really important to find out what happened and how to mitigate the attack.
 Mitigation, or Attack Mitigation, is the reduction in seriousness or severity of an event. 
 In mitigation we center around strategies to limit the impact of a threat against our data.
 
@@ -25,7 +25,7 @@ If you are willing to commit to a fast-paced high-level internals session that i
 When not working for the community, he is busy at his day job: freelance database developer/consultant. 
 
 Hugo has over 20 years of SQL Server experience in various roles. He has a strong database design background, but also loves to write and tune complex queries.",https://twitter.com/hugo_kornelis,https://www.linkedin.com/in/hugokornelis/,https://sqlserverfast.com/blog/,https://sessionize.com/image/e0e9-400o400o2-0c-4a69-4fe7-9243-7fb8f16e64c9.338eb5ea-06a7-4a2d-af10-27d7d6c15d01.jpg
-474018,Building Secured and Scalable IoT solution with Azure SQL database,"The IoT is here to give the power of things over to human just in a SMART way.
+474018,Building Secured and Scalable IoT Solution with Azure SQL Database,"The IoT is here to give the power of things over to human just in a SMART way.
 There are endless daily life examples: “Helmet Sensor ‘Calls Your Loved Ones’ in a Bike Crash”, “A location sensor aka ‘real-world search bar’ to easily find misplaced items, like keys and TV remotes” etc.etc
 Building such IoT solutions include several components like device communication, management, event processing, data ingestion and analysis. Azure SQL is one of the most secure and scalable database which can handle stream processing workloads effectively from our connected IoT device.
 In this demo centric session, we will build an IoT solution using components like edge devices, IoT Hub, Azure Functions and Azure SQL database to store and analyze telemetry data.
