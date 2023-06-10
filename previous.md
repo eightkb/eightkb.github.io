@@ -1,3 +1,16 @@
+## May 24th 2023
+
+Total Attendees: 487
+
+[Full Event Playlist](https://www.youtube.com/playlist?list=PLr9ab4Dj3ObsiOUBFbH4sJxGTqd1_zE3T)
+
+|Session|Speaker|Level|Recording|
+| :---- | :---- | :-: |:------- |
+| **Hacking and Hacking Mitigation For SQL Server** | Sander Stad | 400 | [Session](https://youtu.be/_fsBOpte6EU)
+| **Debugging without debugger: investigating SQL Server's internal structures** | Hugo Kornelis | 8192 | [Session](https://youtu.be/USxQprR9dDA)
+| **Building Secured and Scalable IoT Solution with Azure SQL Database** | Surbhi Pokharna | 400 | [Session](https://youtu.be/qbSmWtoZptE)
+| **Migrate SQL Server to Azure MI Without Getting a Migraine** | Josephine Bush | 300 | [Session](https://youtu.be/SpG27Cxqa98)
+| **What the heck is a checkpoint, and why should I care?** | Taiob Ali | 400 | [Session](https://youtu.be/LvOLHx9FzcM)
 
 ## August 3rd 2022
 
