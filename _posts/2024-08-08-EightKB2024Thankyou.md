@@ -1,11 +1,11 @@
 ---
 layout: post
-title: EightKB 2024 Edition!
+title: Thank you!
 pin: true
 author: Andrew Pruski
 ---
 
-## Thank you!
+## That's a wrap!
 
 Massive thank you for such an enjoyable day!
 
