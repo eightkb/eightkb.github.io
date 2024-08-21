@@ -1,3 +1,18 @@
+## August 8th 2024
+
+Total Attendees: 673
+
+[Full Event Playlist](https://www.youtube.com/playlist?list=PLr9ab4Dj3Obts1QdtnAy3GI3hhqE5tmvP)
+
+|Session|Speaker|Level|Recording|
+| :---- | :---- | :-: |:------- |
+| **X-Raying Schema Operations: Adding and Removing Columns** | Cláudio Silva | 400 | [Session](https://youtu.be/P8Zm-_YtSuQ)
+| **Azure SQL Database Business Continuity** | Jes Chapman | 400 | [Session](https://youtu.be/mDF1tf6JLng)
+| **Mining Statistics for Data Insights** | Deborah Melkin | 300 | [Session](https://youtu.be/0pf7VAIdKNQ)
+| **Navigating High Availability Challenges and Preventive Strategies for “Split Brain”** | Amy Abel | 300 | [Session](https://youtu.be/HomuWaqzn5w)
+| **Black Box No More: LLM Internals** | Argenis Fernandez | 500 | TBD
+
+
 ## May 24th 2023
 
 Total Attendees: 487
@@ -12,11 +27,12 @@ Total Attendees: 487
 | **Migrate SQL Server to Azure MI Without Getting a Migraine** | Josephine Bush | 300 | [Session](https://youtu.be/SpG27Cxqa98)
 | **What the heck is a checkpoint, and why should I care?** | Taiob Ali | 400 | [Session](https://youtu.be/LvOLHx9FzcM)
 
+
 ## August 3rd 2022
 
 Total Attendees: 511
 
-[Full Event Playlist](https://www.youtube.com/watch?v=NEX1gCbvtCo&list=PLr9ab4Dj3ObsikWJ_enVnmLE5lP0ED3ds)
+[Full Event Playlist](https://www.youtube.com/playlist?list=PLr9ab4Dj3ObsikWJ_enVnmLE5lP0ED3ds)
 
 |Session|Speaker|Level|Recording|
 | :---- | :---- | :-: |:------- |
@@ -31,7 +47,7 @@ Total Attendees: 511
 
 Total Attendees: 588
 
-[Full Event Playlist](https://www.youtube.com/watch?v=edNEhNmeQYI&list=PLr9ab4Dj3ObuaHAUA9JJz-GUbfbwXEyS5)
+[Full Event Playlist](https://www.youtube.com/playlist?list=PLr9ab4Dj3ObuaHAUA9JJz-GUbfbwXEyS5)
 
 |Session|Speaker|Level|Recording|
 | :---- | :---- | :-: |:------- |
@@ -46,7 +62,7 @@ Total Attendees: 588
 
 Total Attendees: 735
 
-[Full Event Playlist](https://www.youtube.com/watch?v=E5CJ6z0quN8&list=PLr9ab4Dj3Obtx-6v2Sxb-sExQJoEX1TJ2)
+[Full Event Playlist](https://www.youtube.com/playlist?list=PLr9ab4Dj3Obtx-6v2Sxb-sExQJoEX1TJ2)
 
 |Session|Speaker|Level|Recording|
 | :---- | :---- | :-: |:------- |
@@ -57,12 +73,11 @@ Total Attendees: 735
 | **Scaling SQL Server beyond 2 CPUs** | Thomas Grohser | 400 | [Session](https://www.youtube.com/watch?v=O3ItyjN2iPA)|
 
 
-
 ## June 17th 2020
 
 Total Attendees: 1,079
 
-[Full Event Playlist](https://www.youtube.com/watch?v=CRAx73LiXTc&list=PLr9ab4Dj3ObsGA8jdstJFZfidQ51DvPvu)
+[Full Event Playlist](https://www.youtube.com/playlist?list=PLr9ab4Dj3ObsGA8jdstJFZfidQ51DvPvu)
 
 |Session|Speaker|Level|Recording|
 | :---- | :---- | :-: | :------ |
