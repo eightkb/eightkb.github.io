@@ -10,7 +10,6 @@ Total Attendees: 673
 | **Azure SQL Database Business Continuity** | Jes Chapman | 400 | [Session](https://youtu.be/mDF1tf6JLng)
 | **Mining Statistics for Data Insights** | Deborah Melkin | 300 | [Session](https://youtu.be/0pf7VAIdKNQ)
 | **Navigating High Availability Challenges and Preventive Strategies for “Split Brain”** | Amy Abel | 300 | [Session](https://youtu.be/HomuWaqzn5w)
-| **Black Box No More: LLM Internals** | Argenis Fernandez | 500 | TBD
 
 
 ## May 24th 2023
