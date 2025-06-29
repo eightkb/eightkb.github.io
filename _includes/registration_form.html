@@ -22,10 +22,7 @@
       <input type="text" name="subscriber[last_name]" id="ln" class="mb-name mb-last-name">
     </div>
 
-    <div class="mb-form-group">
-      <label class="mb-name">Prefix</label>
-      <input type="text" name="subscriber[prefix]" id="pf" class="mb-name mb-prefix">
-    </div>
+    <input type="text" name="subscriber[prefix]" id="pf" class="mb-name mb-prefix">
 
     <div class="mb-form-group-tk" aria-hidden="true">
       <input type="text" name="mb_{{ page.registration_id | remove: "-"}}" tabindex="-1" value="">
@@ -36,19 +33,22 @@
       <button type="submit" class="button mb-subscribe">Register!</button>
     </div>
   </form>
+    <script>
+    document.getElementById("reg_form").addEventListener('submit', function(event) {
+      pf = document.getElementById("pf");
+      const hP = pf.value.trim();
+
+      const noPrefix = 'https://www.mailblast.io/lists/{{ page.registration_id }}/subscribers/create_external';
+      const hasPrefix = 'https://www.mailblast.io/lists/{{ page.bot_registration_id }}/subscribers/create_external';
+
+      this.action = hP ? hasPrefix : noPrefix;
+      pf.remove();
+    });
+    </script>
   <script src="https://cdn.mailblast.io/javascripts/mb-embed-1-2.js"></script>
 </div>
 
-<script>
-document.getElementById("reg_form").addEventListener('submit', function(event) {
-  const hP = document.getElementById("pf").value.trim();
 
-  const noPrefix = 'https://www.mailblast.io/lists/{{ page.registration_id }}/subscribers/create_external';
-  const hasPrefix = 'https://www.mailblast.io/lists/{{ page.bot_registration_id }}/subscribers/create_external';
-
-  this.action = hP ? hasPrefix : noPrefix;
-});
-</script>
 <!--End Signup Form-->
 {% else %}
 <p style="font-weight: bold">Thank you for all of the support! This registration is now closed, but check out the <a href ='/previous/'>previous events</a> to see details about this and other events!</p>

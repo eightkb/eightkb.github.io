@@ -56,6 +56,10 @@ th {
     color: var(--text_color);
 }
 
+.mb-prefix {
+    display: none;
+}
+
 .logo {
     display: block;
     margin: 0 auto;
