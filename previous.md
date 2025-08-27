@@ -1,3 +1,17 @@
+## August 21st 2025
+
+Total Attendees: 697
+
+[Full Event Playlist](https://www.youtube.com/watch?v=azJWRObQqAI&list=PLr9ab4Dj3Obt7x1s3TCg2IV7PPWX-WxdR)
+
+|Session|Speaker|Level|Recording|
+| :---- | :---- | :-: |:------- |
+| **Fix your SQL database design with T-SQL static code analysis** | Erik Ejlskov Jensen | 400 | [Session](https://www.youtube.com/watch?v=gTstxcBkWuk)
+| **Next-Gen High Availability with Contained Availability Groups** | Nader Sharara | 400 | [Session](https://www.youtube.com/watch?v=RICJEUoIZ30)
+| **Resurrecting Lost Data: Mastering SQL Server's Transaction Logs and Row Internals Secrets** | Vladimir Afanasev | 400 | [Session](https://www.youtube.com/watch?v=BLLBGp4Qw60)
+| **The Language of Databases: A Deep Dive into MySQL and PostgreSQL Wire Protocols** | Sergey Olontsev | 400 | [Session](https://www.youtube.com/watch?v=XknWq8Gsd0o)
+| **Deep Dive into Memory-Optimized TempDB** | Haripriya Naidu | 400 |  [Session](https://www.youtube.com/watch?v=u-Rcl2GioHs)
+
 ## August 8th 2024
 
 Total Attendees: 673
