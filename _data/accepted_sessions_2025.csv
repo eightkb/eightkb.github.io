@@ -1,0 +1,52 @@
+﻿Session Id,Title,Description,Owner,Owner Email,Session Length,Level,Owner Informed,Owner Confirmed,Room,Scheduled At,Scheduled Duration,Live Link,Recording Link,Speaker Id,FirstName,LastName,Email,TagLine,Bio,X (Twitter),Blog,LinkedIn,Profile Picture
+944890,Fix your SQL database design with T-SQL static code analysis,"If you are a database developer looking for ways to improve your database design or you want help others avoid database design mistakes, this session is for you.
+
+You will learn
+
+- how to add build validation and static code analysis to existing or new SQL database schema and scripts
+- how to take advantage of additional community provided analyzer rules
+- how to customize the rules engine for your purposes
+- how to create and share your own rules
+
+This session will be demo driven and based on production experience using this approach to improve database design process early in the development lifecycle with free, open source tools and libraries.",Erik Ejlskov Jensen,ejlskov@hotmail.com,60m,400,19 Jun 2025 02:40 PM,19 Jun 2025 03:06 PM,Room 1,21 Aug 2025 01:15 PM,60,,,41e47bce-834b-4bba-8ada-39633a3e696f,Erik,Ejlskov Jensen,ejlskov@hotmail.com,".NET Data and Entity Framework expert, Cloud developer","Erik Ejlskov Jensen is Principal Specialist at Delegate A/S. He manages a number of open source data access tools and libraries, including ""SQLite Toolbox"", ""EF Core Power Tools"" and several Entity Framework providers ",https://twitter.com/ErikEJ,https://erikej.github.io,,https://sessionize.com/image/d723-400o400o1-RbnHfQ7o8UrNtcMpABR4PP.jpg
+945246,Next-Gen High Availability with Contained Availability Groups,"In this session, we’ll explore the game-changing concept of Contained Availability Groups (Contained AGs) in SQL Server. Learn how this feature simplifies high availability and disaster recovery by encapsulating databases, metadata, and dependencies within the availability group. Through live demos, we’ll showcase how to set up, manage, and migrate Contained AGs, demonstrating their benefits for on-premises, hybrid, and cloud environments.",Nader Sharara,nader_sharara@hotmail.com,60m,400,19 Jun 2025 02:40 PM,19 Jun 2025 10:08 PM,Room 1,21 Aug 2025 02:30 PM,60,,,f421a1aa-2f79-4609-9d47-1fdc9453caa0,Nader,Sharara,nader_sharara@hotmail.com,Database Architect,"Nader is a database administrator & architect with over 15 years of experience in database management and architecture. He has broad knowledge and experience in relational, NoSQL, cloud databases and data warehouse systems, with more speciality in Microsoft SQL Server.
+
+During his database journey, Nader played different roles from database administration & engineering for managing, optimizing and automating database platforms and solutions for on-premises and cloud environments, to database architecture for building relational and NoSQL data models and cloud database  services and solutions. 
+
+He also spent part of his career working as a database engineering manager, managing database engineering teams running different database systems and platforms for both on-premises and cloud environments. 
+
+Currently, Nader focuses on building cloud-managed, containerized database services on Kubernetes, creating scalable and resilient data solutions for modern applications.
+
+He usually share his knowledge on SQLSpark (https://www.sqlspark.com/) and posts code examples on GitHub (https://github.com/NaderSH)",,https://sqlspark.com/,https://www.linkedin.com/in/nader-sharara-3a802b29/,https://sessionize.com/image/797b-400o400o1-fGiUX8v8a6AHikaRx98aCi.jpg
+946245,Resurrecting Lost Data: Mastering SQL Server's Transaction Logs and Row Internals Secrets,"A deep dive into SQL Server internals for data recovery
+
+This 400+ level session delves into the advanced internals of SQL Server, focusing on techniques to recover deleted data by leveraging transaction logs and understanding the structure of data rows. Attendees will gain insights into how SQL Server manages transactional operations, how data rows are stored and marked for deletion, and how these mechanisms can be used to retrieve data even after accidental deletion.
+
+Prerequisites:
+To maximize the learning experience, attendees should have:
+- A solid understanding of SQL Server architecture, including transaction logs and recovery models.
+- Proficiency in writing and analyzing T-SQL scripts.
+- Experience with database management tasks such as backups, restores, and performance tuning.
+
+Key Takeaways:
+- A step-by-step guide to identifying and recovering deleted data using fn_dblog command.
+- Understanding the anatomy of a data row in SQL Server.
+- Best practices for data recovery and preventing accidental data loss in production environments.
+
+Why This Session?
+This session is tailored for advanced database professionals who are looking to deepen their technical expertise and gain practical skills in handling critical data recovery scenarios. The session balances theoretical knowledge with hands-on techniques to provide an engaging and actionable learning experience.
+
+Let me know if you’d like further refinements!",Vladimir Afanasev,vpered.k.uspehu@gmail.com,45m,400,19 Jun 2025 02:40 PM,21 Jun 2025 08:54 AM,Room 1,21 Aug 2025 03:45 PM,60,,,6aaa371f-5b63-40b5-8244-2ab5af4e92be,Vladimir,Afanasev,vpered.k.uspehu@gmail.com,Senior DB Developer in Barclays,"Hi colleagues!
+
+I’m Vladimir Afanasev, a database professional with over 10 years of experience in database development, performance optimization, and team leadership. Currently, I lead a team of DB experts at Barclays. I thrive on solving complex challenges like enhancing performance monitoring, optimizing workflows, and mitigating risks, while also fostering a collaborative and motivated team environment.
+
+Sharing knowledge is something I’m deeply passionate about. With my expertise in SQL Server, Oracle, and cloud platforms like Microsoft Azure and GCP, I love exploring advanced topics and making them accessible and actionable for others.
+
+I’m excited about the opportunity to be a speaker at your event. I enjoy engaging with like-minded professionals and delivering sessions that combine real-world insights with technical depth. I look forward to contributing to the learning experience and sparking great discussions about SQL Server’s advanced capabilities.",,https://www.linkedin.com/in/vdafanasev/,https://www.linkedin.com/in/vdafanasev/,https://sessionize.com/image/2f51-400o400o1-sfgbcFnuRsxe5mm1v8fJQS.jpg
+924170,The Language of Databases: A Deep Dive into MySQL and PostgreSQL Wire Protocols,"Have you ever wondered how your code actually talks to databases? I will show you what happens behind the scenes when applications connect to MySQL and PostgreSQL. We'll look at the messages these databases send and receive, and explore how they handle commands. The best part will be our live demo - a Rust service that pretends to be a database by speaking the same protocol. Walk away with deeper insights into query command handling, result set formatting, and protocol internals that will give you a better understanding of database interactions.",Sergey Olontsev,sergey@olontsev.biz,75m,500,23 Jun 2025 10:31 AM,No,Room 1,21 Aug 2025 05:00 PM,75,,,1fd9f3be-2179-4cce-bf78-3e462d02bafb,Sergey,Olontsev,sergey@olontsev.biz,Software Engineering Lead @ Criteo,"I have been working with databases for about 18 years, started with SQL Server 2000. Nowadays, my experience is much broader to various other technologies, both relational and NoSQL databases, different programming languages, etc. I'm focusing on high availability and disaster recovery solutions, ETL, troubleshooting and performance tuning, developing data intensive services and products, processing terabytes of data each day. I’m a regular speaker at SQL Server user group meetings, SQLSaturday events and other conferences. An owner of MCM certification and MVP award on SQL Server (2013-2019).",,https://olontsev.io,https://www.linkedin.com/in/sergeyolontsev/,https://sessionize.com/image/0710-400o400o1-hyfNVrx3zTyVpduUjDFi9U.jpg
+928712,Deep Dive into Memory-Optimized TempDB,"TempDB contention has always been a challenge for DBAs, especially in high-concurrency OLTP environments. To address this, SQL Server has introduced several enhancements starting with SQL Server 2019, to reduce bottlenecks and improve performance, including Memory-Optimized TempDB. 
+
+In this session, I’ll show you how Memory-Optimized TempDB works, when to use it, and how to implement it. I’ll demonstrate how it will resolve contention. I'll also cover limitations and provide strategies to manage them effectively. 
+
+By the end of this session, you'll have a clear understanding of how and when to leverage Memory-Optimized TempDB to enhance server performance.  ",Haripriya Naidu,haripriya.naidu1@gmail.com,60m,400,19 Jun 2025 02:40 PM,19 Jun 2025 03:47 PM,Room 1,21 Aug 2025 06:30 PM,60,,,8559cd9f-006d-4f65-9612-2ee92fc2ac35,Haripriya,Naidu,haripriya.naidu1@gmail.com,Lead SQL Server Database Administrator,"Haripriya Naidu has been working as a SQL Server Database Administrator for 11 years in Boston, MA. She is passionate about databases and enjoys diving into SQL Server engine internals and optimizing performance. She is an AWS Certified Solutions Associate and won ""Rookie of the Year"" Award at work in 2024 for outstanding performance and ""Bookworm of the Year"" Award at work in 2025 for continuously learning and sharing knowledge with the team.
+She recently started her speaking journey with New Stars of Data and spoke at SQL Saturdays Boston, Albany and San Diego and PASS Summit 2024. ",,https://gohigh.substack.com/,https://www.linkedin.com/in/haripriya-naidu1215/,https://sessionize.com/image/466e-400o400o1-sVDyY8PbnYQ2tQtAdj2oxR.jpg
