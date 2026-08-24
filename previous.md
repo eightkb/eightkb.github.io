@@ -1,6 +1,6 @@
 ## August 20th 2026
 
-Total Attendees: 437
+Total Attendees: 737
 
 [Full Event Playlist](https://www.youtube.com/playlist?list=PLGP98n3OguvI)
 
