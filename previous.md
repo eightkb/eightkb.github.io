@@ -1,3 +1,17 @@
+## August 20th 2026
+
+Total Attendees: 437
+
+[Full Event Playlist](https://www.youtube.com/playlist?list=PLGP98n3OguvI)
+
+|Session|Speaker|Level|Recording|
+| :---- | :---- | :-: |:------- |
+| **Enterprise Vibe Coding** | Chrissy LeMaire| 400 | [Session](https://youtu.be/4ClKmfHJrww)
+| **Vector Compression & Memory/Storage Economics: FP16 Vectors, and Matryoshka Embeddings** | Mala Mahadevan | 400 | [Session](https://youtu.be/FNDoYWcvRxw)
+| **Unraveling the Layers of I/O: Your Next Step to Becoming a Comprehensive Performance Tuner** | Andy Yun | 400 | [Session](https://youtu.be/R0CWqd_ihac)
+| **Accelerated Database Recovery - A Deep Dive Behind the Magic** | John Morehouse | 400 | [Session](https://youtu.be/XPhogTgDocc)
+| **Always On Availability Groups and Failover Clustering Internals** | Edwin Sarmiento | 400 |  [Session](https://youtu.be/0j3tBu3ZNOE)
+
 ## August 21st 2025
 
 Total Attendees: 697
